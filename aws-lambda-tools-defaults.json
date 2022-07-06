@@ -1,0 +1,34 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "vs-nottage",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "function-runtime" : "dotnet6",
+    "function-memory-size" : 512,
+    "function-timeout"     : 35,
+    "function-handler"     : "AWSLambda1::AWSLambda1.Function::FunctionHandler",
+    "DatabaseNameOrigin"   : "",
+    "DatabaseNameTarget"   : "",
+    "RDSEndpoint"          : "db1-test-east.chqpaxna6hm2.us-east-1.rds.amazonaws.com",
+    "Database"             : "mysql_db1",
+    "DatabaseUser"         : "",
+    "DatabasePassword"     : "",
+    "S3BucketName"         : "Nottage-Sneakers",
+    "framework"            : "net6.0",
+    "function-name"        : "SnkrLambda",
+    "function-description" : "",
+    "package-type"         : "Zip",
+    "function-architecture" : "x86_64",
+    "tracing-mode"          : "PassThrough",
+    "environment-variables" : "\"RDSEndpoint\"=\"db1-test-east.chqpaxna6hm2.us-east-1.rds.amazonaws.com\";\"Database\"=\"mysql_db1\"",
+    "image-tag"             : "",
+    "function-role"         : "arn:aws:iam::019537704665:role/service-role/SnkrLambda-role-q752ql88",
+    "function-subnets"      : "subnet-0117f335a6ab2ea06,subnet-06464cd62fd23f34c",
+    "function-security-groups" : "sg-06cf6bc4bbfe13967"
+}
